@@ -7,11 +7,11 @@
 // }
 
 const DB = {
-    host: "localhost",
-  user: "root",
-  port:8889,
-  password: "root",
-  database: "barcode",
+    host: "sql6.freesqldatabase.com",
+  user: "sql6686914",
+  port:3306,
+  password: "dHJ3Yex597",
+  database: "sql6686914",
 }
 
 const ResultStatus = {
