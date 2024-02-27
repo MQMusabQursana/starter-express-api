@@ -17,7 +17,13 @@ async function init(server) {
   //must online all socket when server restarted;
  await UserSocket.update({is_online:false},{where:{}}).catch((ex)=>{});
 
-  socketIO = new Server(server);
+ const options = {
+  cors: true,
+  origins: ['https://fantastic-scrubs-toad.cyclic.app/'],
+  'force new connection': true,
+};
+
+  socketIO = new Server(server,options);
 
   socketIO.use((socket, next) => {
     SocketMiddleware.checkIfAuthenticated(socket, next);
