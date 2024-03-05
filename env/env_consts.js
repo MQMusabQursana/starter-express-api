@@ -1,18 +1,10 @@
 const DB = {
     host: "localhost",
-    user:"admin",
-    password:"admin",
-    port: "3306",
-   database: "barcode",
+  user: "root",
+  port:8889,
+  password: "root",
+  database: "barcode",
 }
-
-// const DB = {
-//     host: "aaivanov.000webhostapp.com",
-//   user: "id21960457_123user",
-//   port:3306,
-//   password: "123Abc-db",
-//   database: "id21960457_mqtc",
-// }
 
 const ResultStatus = {
     ok: 200,
