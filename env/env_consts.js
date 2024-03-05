@@ -1,18 +1,18 @@
-// const DB = {
-//     host: "127.0.0.1",
-//     user:"mysql_user",
-//     password:"Mysql@123",
-//     port: "3306",
-//    database: "barcode",
-// }
-
 const DB = {
-    host: "sql6.freesqldatabase.com",
-  user: "sql6686914",
-  port:3306,
-  password: "dHJ3Yex597",
-  database: "sql6686914",
+    host: "localhost",
+    user:"admin",
+    password:"admin",
+    port: "3306",
+   database: "barcode",
 }
+
+// const DB = {
+//     host: "aaivanov.000webhostapp.com",
+//   user: "id21960457_123user",
+//   port:3306,
+//   password: "123Abc-db",
+//   database: "id21960457_mqtc",
+// }
 
 const ResultStatus = {
     ok: 200,
